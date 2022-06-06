@@ -15,7 +15,7 @@
 :root {
   /* Font Size */
   --fg-primary: 12vh; /* Time and Greetings */
-  --fg-secondary: 3vh; /* Greetings and Weather widger */
+  --fg-secondary: 3vh; /* Greetings and widget */
   --fg-date: 8vh; /* Date */
   --fg-list: 2vh; /* Links List */
   --icon: 3vh; /* Icon Size */
@@ -135,7 +135,7 @@ body {
   justify-content: center;
 }
 
-.weatherBlock {
+.dateBlock {
   grid-column: 3 / span 2;
   grid-row: 1 / span 2;
   display: flex;
@@ -149,12 +149,6 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 30px;
-}
-
-.weather {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .clock {
@@ -184,24 +178,6 @@ body {
 
 #greetings {
   font-size: var(--fg-secondary);
-  color: var(--fg);
-}
-
-.weatherIcon img {
-  width: 70px;
-  height: 70px;
-}
-
-.weatherValue p {
-  font-size: var(--fg-secondary);
-  font-weight: bolder;
-  margin-left: 15px;
-  color: var(--fg);
-}
-
-.weatherDescription p {
-  font-size: var(--fg-secondary);
-  margin-left: 15px;
   color: var(--fg);
 }
 
@@ -347,7 +323,7 @@ body {
     grid-column: 1 / span 4;
   }
 
-  .weatherBlock {
+  .dateBlock {
     display: none;
   }
 
