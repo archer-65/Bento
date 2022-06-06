@@ -20,10 +20,10 @@ const CONFIG = {
 	greetingMorning: 'Good morning!',
 	greetingAfternoon: 'Good afternoon,',
 	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to sleep!',
+	greetingNight: 'Go to sleep,',
 
 	// Layout
-	bentoLayout: 'lists', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
 
 	// Autochange
 	autoChangeTheme: true,
@@ -45,25 +45,25 @@ const CONFIG = {
 			id: '1',
 			name: 'Github',
 			icon: 'github',
-			link: 'https://github.com/',
+			link: 'https://github.com/archer-65',
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			name: 'Facebook',
+			icon: 'facebook',
+			link: 'https://facebook.com/',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'NixOS Search',
+			icon: 'snowflake',
+			link: 'https://search.nixos.org/packages',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Stackoverflow',
+			icon: 'layers',
+			link: 'https://stackoverflow.com/',
 		},
 		{
 			id: '5',
@@ -73,9 +73,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'YouTube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com/',
 		},
 	],
 
@@ -94,21 +94,21 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
+			name: 'Emacs',
+			icon: 'file-code',
+			link: 'https://www.emacswiki.org/',
 		},
 		{
 			id: '4',
 			name: 'Amazon',
 			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
+			link: 'https://amazon.it/',
 		},
 		{
 			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
+			name: 'UniNa',
+			icon: 'graduation-cap',
+			link: 'https://www.ssignon.unina.it/openam/UI/Login',
 		},
 		{
 			id: '6',
